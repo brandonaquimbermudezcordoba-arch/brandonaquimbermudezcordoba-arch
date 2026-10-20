@@ -1,0 +1,16 @@
+{
+  "name": "coorporacion-cordova",
+  "version": "2.0.0",
+  "description": "Coorporacion cordova · Sistema de ventas y administración (código interno SIGA)",
+  "private": true,
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server/server.js",
+    "reset": "node --disable-warning=ExperimentalWarning server/reset.js",
+    "test": "node --disable-warning=ExperimentalWarning --test tests/api.test.js",
+    "clave": "node --disable-warning=ExperimentalWarning scripts/clave.js",
+    "limpiar": "node --disable-warning=ExperimentalWarning scripts/limpiar.js"
+  }
+}
